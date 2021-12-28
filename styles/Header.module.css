@@ -1,0 +1,26 @@
+.header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style-type: none;
+   color: whitesmoke;
+   font-size: 1rem;
+   gap: 2rem;
+}
+
+
+.chevronBottom {
+	border-style: solid;
+	border-width: 0.1em 0.1em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	left: 0.15em;
+	position: relative;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 0.45em;
+  top: 4px;
+	left: 8px;
+	transform: rotate(135deg);
+}
